@@ -1,0 +1,139 @@
+.footer {
+    background-color: #b1b6be;
+    padding: 40px 80px;
+    font-family: 'Arial', sans-serif;
+    color: white;
+  }
+  
+  .footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+  
+  .footer-section {
+    margin: 10px;
+  }
+  
+  .footer-section.logo h2 {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .footer-section.links {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .link-column {
+    margin-right: 40px;
+    min-width: 150px;
+  }
+  
+  .link-column ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .link-column ul li {
+    margin: 8px 0;
+    cursor: pointer;
+  }
+  
+  .footer-section.subscribe {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .subscribe-box {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .subscribe-box input[type="email"] {
+    padding: 8px;
+    border: none;
+    border-radius: 4px;
+    width: 200px;
+    margin-right: 10px;
+    background-color: #dfe2e6;
+    color: #666;
+  }
+  
+  .subscribe-box button {
+    padding: 8px 10px;
+    border: none;
+    background-color: #888;
+    color: white;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  .footer-section.subscribe p {
+    font-size: 0.9rem;
+    color: white;
+    margin-top: 10px;
+  }
+  
+  .footer-section.social-media {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    margin-top: 10px;
+  }
+  
+  .footer-section.social-media i {
+    font-size: 1.3rem;
+    cursor: pointer;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .footer {
+      padding: 20px 40px;
+    }
+  
+    .footer-container {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+  
+    .footer-section {
+      width: 100%;
+      margin: 20px 0;
+    }
+  
+    .footer-section.logo h2 {
+      font-size: 1.8rem;
+    }
+  
+    .footer-section.links {
+      justify-content: center;
+    }
+  
+    .link-column {
+      margin: 10px 0;
+    }
+  
+    .footer-section.subscribe {
+      align-items: center;
+    }
+  
+    .subscribe-box {
+      width: 100%;
+      justify-content: center;
+    }
+  
+    .subscribe-box input[type="email"] {
+      width: 80%;
+    }
+  
+    .footer-section.social-media {
+      justify-content: center;
+    }
+  }
+  

@@ -1,0 +1,136 @@
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+  }
+  
+  .hero-left {
+    min-height: 60vh;
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-image: url('https://images.pexels.com/photos/1525039/pexels-photo-1525039.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .hero-content {
+    max-width: 500px;
+    margin-left: 20%;
+  }
+  
+  .hero-content h1 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .hero-content h2 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .hero-content p {
+    margin-bottom: 1.5rem;
+  }
+  
+  .hero-content button {
+    padding: 0.75rem 1.5rem;
+    background-color: #ff6347;
+    border: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .hero-right {
+    flex: 1;
+    color: black;
+    border-radius: 8px;
+    min-height: 60vh;
+  }
+  
+  .more-news {
+    padding: 1rem 4rem;
+  }
+  
+  .more-news h2 {
+    margin-bottom: 1rem;
+  }
+  
+  .news-item {
+    margin-bottom: 1rem;
+  }
+  
+  .news-item h3 {
+    color: #ff6347;
+    font-size: 1rem;
+  }
+  
+  .news-item p {
+    font-size: 0.875rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .news-item span {
+    font-size: 0.75rem;
+    color: #ccc;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .hero {
+      flex-direction: column;
+      height: auto;
+    }
+  
+    .hero-left, .hero-right {
+      flex: 1;
+      width: 100%;
+      padding: 1rem 0;
+    }
+  
+    .hero-content {
+      max-width: 500px;
+      margin-left: 0;
+      padding: 1rem;
+    }
+  
+    .hero-content h1 {
+      font-size: 1.5rem;
+    }
+  
+    .hero-content h2 {
+      font-size: 1.2rem;
+    }
+  
+    .hero-content p {
+      font-size: 0.875rem;
+    }
+  
+    .hero-content button {
+      padding: 0.5rem 1rem;
+    }
+  
+    .hero-right {
+      background-color: transparent;
+    }
+  
+    .more-news {
+      padding: 1rem 2rem;
+    }
+  
+    .news-item h3 {
+      font-size: 0.875rem;
+    }
+  
+    .news-item p {
+      font-size: 0.75rem;
+    }
+  
+    .news-item span {
+      font-size: 0.65rem;
+    }
+  }
+  
